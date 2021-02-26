@@ -14,7 +14,7 @@ spec:
         app: pet-store
     spec:
       containers:
-        - image: docker.io/andriicodefresh/pet-store:8e121f424b20488d2b5030e73560f6ca8e11a7ab
+        - image: docker.io/andriicodefresh/pet-store:284b47e132c9996bbbbba8dfc6d09ba93404fafc
           name: pet-store
           ports:
             - containerPort: 3001
