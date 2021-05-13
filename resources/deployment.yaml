@@ -14,6 +14,7 @@ spec:
     metadata:
       labels:
         app: pet-store
+        lbl: l1
     spec:
       containers:
         - image: docker.io/andriicodefresh/pet-store:1e564518b1253fd741cdcf1abc6ad7cf58937f89
